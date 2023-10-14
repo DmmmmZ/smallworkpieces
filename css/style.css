@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    background: #fff;
+    min-height: 100vh;
+    background: #020819;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#magnifying_area {
+    width: 800px;
+    height: 435px;
+    overflow: hidden;
+    border: 3px solid #fff;
+    position: relative;
+    cursor: crosshair;
+}
+#magnifying_img {
+    max-width: 100%;
+    min-width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
